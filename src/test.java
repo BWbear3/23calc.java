@@ -17,7 +17,7 @@ public class test {
             ArabicConvertRoman d2 = new ArabicConvertRoman();
             if (massiv.length > 1) {
                 oper = massiv[1];
-                //if (exit.equals(oper)) break;//////////////////////////
+                //if (exit.equals(oper)) break;///////////////////////////
             } else {
                 throw new RuntimeException("т.к. введенная строка не является математической операцией");
             }
